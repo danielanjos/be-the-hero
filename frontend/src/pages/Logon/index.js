@@ -25,7 +25,7 @@ export default function Logon() {
 
       history.push('/profile');
     } catch (err){
-      alert('Falha no login');
+      alert('Falha no login.');
     }
   }
 
